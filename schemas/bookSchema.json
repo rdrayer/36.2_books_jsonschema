@@ -1,0 +1,94 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "isbn",
+        "amazon_url",
+        "author",
+        "language",
+        "pages",
+        "publisher",
+        "title",
+        "year"
+    ],
+    "properties": {
+        "isbn": {
+            "type": "string",
+            "default": "",
+            "title": "The isbn Schema",
+            "examples": [
+                "test"
+            ]
+        },
+        "amazon_url": {
+            "type": "string",
+            "default": "",
+            "title": "The amazon_url Schema",
+            "examples": [
+                "https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871/ref=rtpb_d_sccl_2/147-3809694-3999222?pd_rd_w=xlbhm\u0026content-id=amzn1.sym.1683dfe1-057b-4d4c-8805-d9459571c690\u0026pf_rd_p=1683dfe1-057b-4d4c-8805-d9459571c690\u0026pf_rd_r=H9PM6XER1P3Q3F9CHPY5\u0026pd_rd_wg=AanVb\u0026pd_rd_r=9ecb5fd8-b87f-4641-802e-f0489a2bbbbe\u0026pd_rd_i=0262510871\u0026psc=1"
+            ],
+            "format": "uri"
+        },
+        "author": {
+            "type": "string",
+            "default": "",
+            "title": "The author Schema",
+            "examples": [
+                "Harold Abelson"
+            ]
+        },
+        "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+                "English"
+            ]
+        },
+        "pages": {
+            "type": "integer",
+            "default": 0,
+            "title": "The pages Schema",
+            "examples": [
+                200
+            ]
+        },
+        "publisher": {
+            "type": "string",
+            "default": "",
+            "title": "The publisher Schema",
+            "examples": [
+                "Penguin House"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "Structure and Interpretation of Computer Programs"
+            ]
+        },
+        "year": {
+            "type": "integer",
+            "default": 0,
+            "title": "The year Schema",
+            "examples": [
+                1999
+            ]
+        }
+    },
+    "examples": [{
+        "isbn": "test",
+        "amazon_url": "https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871/ref=rtpb_d_sccl_2/147-3809694-3999222?pd_rd_w=xlbhm\u0026content-id=amzn1.sym.1683dfe1-057b-4d4c-8805-d9459571c690\u0026pf_rd_p=1683dfe1-057b-4d4c-8805-d9459571c690\u0026pf_rd_r=H9PM6XER1P3Q3F9CHPY5\u0026pd_rd_wg=AanVb\u0026pd_rd_r=9ecb5fd8-b87f-4641-802e-f0489a2bbbbe\u0026pd_rd_i=0262510871\u0026psc=1",
+        "author": "Harold Abelson",
+        "language": "English",
+        "pages": 200,
+        "publisher": "Penguin House",
+        "title": "Structure and Interpretation of Computer Programs",
+        "year": 1999
+    }]
+}
